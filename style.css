@@ -222,5 +222,28 @@ main{
     background-repeat: no-repeat;
 }
 
+.currency-table--date, .currency-table--date2{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+.currency-table--date2{
+    background-color: var(--soft-blue);
+}
+
+.currency-table--date p, .currency-table--date2 p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+    font-weight: 300;
+}
+.main-currency-table2{
+    margin-top: 20px;
+}
 
 
