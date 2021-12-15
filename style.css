@@ -144,12 +144,28 @@ main{
     line-height: 1.6rem;
     color: #757575;
 }
+.main-tables-container{
+    margin-top: 40px;
+    display: flex;
+    height: 360px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+
+}
+
+
 .main-currency-table, .main-currency-table2{
+    scroll-snap-align: center;
+    position: relative;
+
+
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 40px;
     font-family: "inter", sans-serif;
+    
 }
 .main-currency-table .currency-table--title, .main-currency-table2 .currency-table--title2{
     margin-bottom: 15px;
@@ -241,9 +257,6 @@ main{
     line-height: 1.5rem;
     color: var(--warm-black);
     font-weight: 300;
-}
-.main-currency-table2{
-    margin-top: 20px;
 }
 
 .main-product-detail{
